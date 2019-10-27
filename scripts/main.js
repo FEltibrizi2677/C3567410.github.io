@@ -2,8 +2,8 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','images/firefox1.jpg');
+  if(mySrc === 'https://i.imgur.com/lKzD9nD.png') {
+    myImage.setAttribute ('src','https://i.imgur.com/lKzD9nD.png');
   } else {
     myImage.setAttribute ('src','https://internetfreedom.in/content/images/2016/08/iff-logo-600x250.png');
   }
